@@ -52,7 +52,9 @@ function removeElementFromEndOfArray (array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop();
+   array.pop()
+   
+   return array;
 }
 
 
